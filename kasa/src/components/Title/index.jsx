@@ -33,6 +33,7 @@ const StyledTagContainer = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: start;
+    flex-wrap: wrap;
     gap: 8px;
     margin-top: 16px;
     @media screen and (max-width: 768px) {
