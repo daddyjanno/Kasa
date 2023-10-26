@@ -13,9 +13,9 @@ const StyledCard = styled.div`
     aspect-ratio: 1/1;
     @media screen and (max-width: 768px) {
         width: 100%;
-        max-width: none;
+        max-width: unset;
+        max-height: 250px;
         aspect-ratio: auto;
-        background-color: lightcoral;
     }
 `
 const StyledCover = styled.img`
@@ -26,7 +26,7 @@ const StyledCover = styled.img`
     @media screen and (max-width: 768px) {
         width: 100%;
         object-fit: fill;
-        /* height: auto; */
+        height: auto;
     }
 `
 const StyledTextContainer = styled.div`
