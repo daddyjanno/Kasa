@@ -15,7 +15,7 @@ const StyledTitle = styled.h2`
     font-weight: 400;
     color: ${colors.primary};
     margin: 0px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         font-size: 18px;
     }
 `
@@ -24,7 +24,7 @@ const StyledLocation = styled.h3`
     font-weight: 200;
     color: ${colors.primary};
     margin: 0px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         font-size: 14px;
         font-weight: 400;
     }
@@ -35,7 +35,7 @@ const StyledTagContainer = styled.div`
     justify-content: start;
     gap: 8px;
     margin-top: 16px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 100%;
     }
 `

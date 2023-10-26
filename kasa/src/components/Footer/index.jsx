@@ -15,7 +15,7 @@ const StyledWrapper = styled.div`
     justify-content: center;
     gap: 10px;
     padding-top: 40px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 30%;
         text-align: center;
         gap: 0px;
@@ -23,7 +23,7 @@ const StyledWrapper = styled.div`
 `
 const StyledLogo = styled.img`
     width: 80px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 120px;
         height: 40px;
     }

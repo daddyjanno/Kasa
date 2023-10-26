@@ -11,7 +11,7 @@ const StyledContainer = styled.div`
     height: 55vh;
     color: ${colors.primary};
     margin: 50px 0px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 80%;
         margin: 50px auto;
         height: 60vh;
@@ -26,7 +26,7 @@ const StyledH1 = styled.h1`
     font-size: 280px;
     font-weight: bold;
     margin: 0;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         font-size: 96px;
     }
 `

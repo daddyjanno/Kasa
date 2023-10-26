@@ -13,7 +13,7 @@ const StyledTextContainer = styled.div`
     padding: 10px 20px 5px 20px;
     transform-origin: top;
     transition: all 0.4s ease-in-out;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         padding: 8px 10px 8px 10px;
         font-size: 12px;
     }
@@ -37,7 +37,7 @@ const StyledTitle = styled.h4`
     color: white;
     font-size: 24px;
     font-weight: 400;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         font-size: 13px;
     }
 `
@@ -47,7 +47,7 @@ const StyledChevron = styled.img`
     transform: rotate(180deg);
     ${({ open }) => open && 'transform: rotate(360deg)'};
     transition: all 0.4s ease-in-out both alternate;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         height: 20px;
     }
 `

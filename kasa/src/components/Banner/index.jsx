@@ -9,7 +9,7 @@ const BannerContainer = styled.div`
     justify-content: center;
     width: 100%;
     height: 220px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         height: 110px;
     }
 `
@@ -20,7 +20,7 @@ const StyledText = styled.p`
     z-index: 1;
     text-align: center;
     filter: drop-shadow(0px 0px 5px #000);
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         font-size: 24px;
         text-align: start;
     }

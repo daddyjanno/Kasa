@@ -6,7 +6,7 @@ import colors from '../../utils/style/colors'
 const StyledLogo = styled.img`
     height: 70px;
     width: 210px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         height: 45px;
         width: 145px;
     }
@@ -18,7 +18,7 @@ const StyledNav = styled.nav`
     height: 35px;
     width: 300px;
     gap: 60px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         gap: 10px;
     }
 `
@@ -34,7 +34,7 @@ const StyledLink = styled(NavLink)`
         text-decoration: underline;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         font-size: 12px;
         font-weight: 400;
         text-transform: uppercase;

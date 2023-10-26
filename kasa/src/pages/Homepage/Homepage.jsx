@@ -26,7 +26,7 @@ const CardWrapper = styled.div`
     padding: 25px;
     border-radius: 16px;
     justify-items: center;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         display: flex;
         align-items: center;
         justify-content: center;

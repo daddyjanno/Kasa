@@ -20,7 +20,7 @@ const StyledAvatar = styled.img`
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 32px;
         height: 32px;
     }

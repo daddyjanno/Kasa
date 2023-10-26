@@ -16,7 +16,7 @@ const StyledCarousel = styled.div`
     object-fit: cover;
     overflow: hidden;
     box-shadow: 0px 0px 7px #666;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         height: 255px;
         width: 100%;
     }
@@ -25,7 +25,7 @@ const StyledSlide = styled.img`
     border-radius: 16px;
     min-width: 100%;
     min-height: 400px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         min-height: 255px;
         aspect-ratio: inherit;
     }
@@ -65,7 +65,6 @@ function Slideshow({ pictures }) {
     const isLastSlide = index === pictures.length - 1
 
     const handleLeftArrow = () => {
-        console.log('click left')
         if (!isFirstSlide) {
             setIndex(--index)
         } else {
@@ -73,7 +72,6 @@ function Slideshow({ pictures }) {
         }
     }
     const handleRightArrow = () => {
-        console.log('click right')
         if (!isLastSlide) {
             setIndex(++index)
         } else {

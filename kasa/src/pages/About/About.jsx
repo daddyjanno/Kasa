@@ -12,7 +12,7 @@ const Container = styled.div`
     width: 90%;
     gap: 30px;
     margin: 50px auto;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         gap: 16px;
         /* min-height: 60vh; */
         margin: 30px auto;
@@ -22,7 +22,7 @@ const Container = styled.div`
 const CollapseWrapper = styled.div`
     width: 80%;
     height: auto;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 100%;
     }
 `

@@ -22,7 +22,7 @@ const InformationContainer = styled.div`
     width: 100%;
     padding: 16px 0px;
     gap: 30px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         flex-direction: column;
     }
 `
@@ -38,7 +38,7 @@ const AvatarRatingContainer = styled.div`
     align-items: flex-end;
     justify-content: center;
     gap: 40px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 100%;
         flex-direction: row-reverse;
         align-items: center;
@@ -54,13 +54,13 @@ const CollapsesContainer = styled.div`
     width: 100%;
     gap: 30px;
     margin-bottom: 20px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         flex-direction: column;
     }
 `
 const CollapseWrapper = styled.div`
     width: 45%;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 100%;
     }
 `

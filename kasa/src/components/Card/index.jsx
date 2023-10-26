@@ -11,7 +11,7 @@ const StyledCard = styled.div`
     overflow: hidden;
     object-fit: cover;
     aspect-ratio: 1/1;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 100%;
         max-width: max-content;
         aspect-ratio: auto;
@@ -21,7 +21,7 @@ const StyledCover = styled.img`
     object-fit: cover;
     height: 100%;
     filter: brightness(0.9) saturate(90%);
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         width: 100%;
         /* height: auto; */
     }
