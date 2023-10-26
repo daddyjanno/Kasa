@@ -9,10 +9,10 @@ const SyledTag = styled.div`
     font-weight: 400;
     border-radius: 16px;
     padding: 8px 40px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         font-size: 10px;
         padding: 8px 10px;
-        border-radius: 8px;
+        /* border-radius: 8px; */
     }
 `
 
