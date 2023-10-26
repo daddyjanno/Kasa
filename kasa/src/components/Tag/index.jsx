@@ -11,7 +11,7 @@ const SyledTag = styled.div`
     padding: 8px 40px;
     @media screen and (max-width: 768px) {
         font-size: 10px;
-        padding: 8px 10px;
+        padding: 8px 20px;
         /* border-radius: 8px; */
     }
 `
