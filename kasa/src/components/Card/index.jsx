@@ -13,16 +13,19 @@ const StyledCard = styled.div`
     aspect-ratio: 1/1;
     @media screen and (max-width: 768px) {
         width: 100%;
-        max-width: max-content;
+        max-width: none;
         aspect-ratio: auto;
+        background-color: lightcoral;
     }
 `
 const StyledCover = styled.img`
     object-fit: cover;
-    height: 100%;
+    object-position: center;
+    height: auto;
     filter: brightness(0.9) saturate(90%);
     @media screen and (max-width: 768px) {
         width: 100%;
+        object-fit: fill;
         /* height: auto; */
     }
 `
