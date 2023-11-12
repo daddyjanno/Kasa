@@ -2,9 +2,9 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const StyledCard = styled.div`
+    position: relative;
     display: flex;
     justify-content: start;
-    align-items: end;
     max-width: 300px;
     max-height: 300px;
     border-radius: 16px;
@@ -31,6 +31,8 @@ const StyledCover = styled.img`
 `
 const StyledTextContainer = styled.div`
     position: absolute;
+    left: 10px;
+    bottom: 0px;
     width: 200px;
     padding: 10px 20px;
     overflow: hidden;
